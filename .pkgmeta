@@ -9,3 +9,5 @@ ignore:
   - .gitignore
   - .release
   - "*.md"
+  - "*.ps1"
+  - icon.png
