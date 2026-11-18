@@ -43,7 +43,6 @@ end
 
 Applies to every AI agent working in this repo. Human-facing version: [CONTRIBUTING.md](CONTRIBUTING.md#ai-code-of-conduct).
 
-- **Disclose.** State in the PR description which tool was used and how much of the change it produced.
 - **Human review.** A human must review, understand, and be able to explain every line you submit. Never submit unreviewed output.
 - **Verify.** Run `luacheck .` and test in-game before submitting. Never claim a check passed without running it.
 - **No fabrication.** Do not invent WoW API behaviour. Verify against [warcraft.wiki.gg](https://warcraft.wiki.gg) and Blizzard's FrameXML source.
