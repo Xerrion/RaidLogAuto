@@ -11,6 +11,26 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Fix release workflow (#15)
+## 1.4.4 (2026-11-18)
+
+<!-- Release notes generated using configuration in .github/release.yml at master -->
+
+## What's Changed
+### ⚙️ Other Changes
+* ci: add CODEOWNERS and fix workflow security by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/43
+* chore: auto-assign all new issues to Xerrion by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/42
+* docs: refresh README to reflect current addon state (#45) by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/46
+* docs: tighten AGENTS.md to project-specific rules by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/47
+* ci: run lint on pull_request instead of pull_request_target by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/53
+* docs: drop AI disclosure requirement by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/54
+* chore: use GitHub-generated release notes to credit contributors by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/55
+* ci: add PR labeler and unify release note categories by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/57
+* ci: use pull_request triggers and update action versions by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/58
+* ci: run the PR labeler on pull_request_target for fork PRs by @Xerrion in https://github.com/Xerrion/RaidLogAuto/pull/59
+
+
+**Full Changelog**: https://github.com/Xerrion/RaidLogAuto/compare/1.4.3...1.4.4
+
 ## [1.4.3](https://github.com/Xerrion/RaidLogAuto/compare/1.4.2...1.4.3) (2026-04-06)
 
 
