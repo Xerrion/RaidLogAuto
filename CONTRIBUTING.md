@@ -117,6 +117,21 @@ RaidLogAuto does not have automated tests. Manual testing checklist:
 | `docs/` | Documentation | `docs/update-readme` |
 | `refactor/` | Code improvement | `refactor/21-core-cleanup` |
 
+## AI Code of Conduct
+
+You may use AI tools (Copilot, Claude, ChatGPT, and similar), but you remain responsible for everything you submit. AI agents working in this repo also follow [AGENTS.md](AGENTS.md). This policy is separate from the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+- **Disclose.** State in the PR description which tool you used and how much of the change it produced.
+- **Review it yourself.** You must review, understand, and be able to explain every line you submit. Do not submit unreviewed agent output.
+- **Verify.** Run `luacheck .` and test in-game before submitting. Never claim a check passed without running it.
+- **Do not invent WoW API behaviour.** Verify against [warcraft.wiki.gg](https://warcraft.wiki.gg) and Blizzard's FrameXML source.
+- **No spam.** No bulk or drive-by AI-generated issues or PRs. Keep to one scoped change per PR, linked to an issue.
+- **Licensing.** You are responsible for licensing. Do not paste code of unknown origin.
+- **Agents.** Agents must follow AGENTS.md, never push to `master`, and never merge release-please PRs (`chore(master): release X.Y.Z`); the owner merges those. They must not touch secrets or workflow permissions without explicit approval.
+- **PR titles** must be conventional commits (`feat:`, `fix(scope):`, `chore:` ...). Squash merges use the PR title as the commit message, and release-please derives versions from it.
+
+Maintainers may close undisclosed or unreviewed AI-assisted PRs without review.
+
 ## What Happens After Your PR
 
 1. **CI** runs luacheck automatically

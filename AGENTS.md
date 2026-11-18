@@ -38,3 +38,20 @@ end
 ## Known Gotchas
 
 - `RaidLogAuto.lua` is **deprecated** and excluded from packaging - do not edit it.
+
+## AI Code of Conduct
+
+Applies to every AI agent working in this repo. Human-facing version: [CONTRIBUTING.md](CONTRIBUTING.md#ai-code-of-conduct).
+
+- **Disclose.** State in the PR description which tool was used and how much of the change it produced.
+- **Human review.** A human must review, understand, and be able to explain every line you submit. Never submit unreviewed output.
+- **Verify.** Run `luacheck .` and test in-game before submitting. Never claim a check passed without running it.
+- **No fabrication.** Do not invent WoW API behaviour. Verify against [warcraft.wiki.gg](https://warcraft.wiki.gg) and Blizzard's FrameXML source.
+- **No spam.** No bulk or drive-by AI-generated issues or PRs. One scoped change per PR, linked to an issue.
+- **Licensing.** Contributors are responsible for licensing. Do not paste code of unknown origin.
+- **Agent conduct.**
+  - Follow this file.
+  - Never push to `master`.
+  - Never merge release-please PRs (`chore(master): release X.Y.Z`); the owner merges those.
+  - Do not touch secrets or workflow permissions without explicit approval.
+- **PR titles** must be conventional commits (`feat:`, `fix(scope):`, `chore:` ...). Squash merges use the PR title as the commit message, and release-please derives versions from it.
